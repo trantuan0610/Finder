@@ -1,42 +1,36 @@
 package com.tuantran.finder
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.tuantran.finder.fragment.*
-
+import kotlinx.android.synthetic.main.main_activity.*
 
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.home_layout)
-         val homeFragment = HomeFragment()
-         val favoriteFragment = FavoriteFragment()
-         val chatFragment = ChatFragment()
-         val profileFragment = ProfileFragment()
-    val bottomNavigationView =findViewById<BottomNavigationView>(R.id.bottom_navi)
-        setThatFragment(homeFragment)
-        bottomNavigationView.setOnItemSelectedListener {
-            when(it.itemId){
-                R.id.menu_home -> setThatFragment(homeFragment)
-                R.id.menu_tim -> setThatFragment(favoriteFragment)
-                R.id.menu_chat -> setThatFragment(chatFragment)
-                R.id.menu_profile -> setThatFragment(profileFragment)
-            }
-            true
+        setContentView(R.layout.main_activity)
+        btnLoginGG.setOnClickListener {
+//        val homeFragment = HomeFragment()
+//            val fragment : Fragment?=
+//
+//            supportFragmentManager.findFragmentByTag(HomeFragment ::class.java.simpleName)
+//
+//            if (fragment !is HomeFragment){
+//            supportFragmentManager.beginTransaction()
+//                .add(R.id.LinerFragment,homeFragment,HomeFragment::class.java.simpleName)
+//                .commit()
+//            }
+
+            val intent : Intent = Intent(this,Main2Activity::class.java)
+            startActivity(intent)
         }
 
 
     }
-    private fun setThatFragment(fragment : Fragment) {
-        if (fragment != null){
-            val transaction = supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.fragment,fragment)
-            transaction.commit()
-        }
-    }
+
 
 }
