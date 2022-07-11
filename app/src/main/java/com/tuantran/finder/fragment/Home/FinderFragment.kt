@@ -1,25 +1,28 @@
-package com.tuantran.finder.fragment
+package com.tuantran.finder.fragment.Home
 
-import android.os.Binder
+import android.R
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import androidx.navigation.Navigation
-import androidx.navigation.fragment.findNavController
-import com.tuantran.finder.R
+import android.widget.ArrayAdapter
+import androidx.fragment.app.Fragment
+import com.lorentzos.flingswipe.SwipeFlingAdapterView
+import com.tuantran.finder.databinding.FragmentFinderBinding
 
 
 class FinderFragment : Fragment() {
+
+    private var i = 0
+    private lateinit var binding : FragmentFinderBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-
-     return inflater.inflate(R.layout.fragment_finder,container,false)
+        binding = FragmentFinderBinding.inflate(layoutInflater)
+     return binding.root
 
     }
 
@@ -27,6 +30,8 @@ class FinderFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
     }
+
+
     }
 
 

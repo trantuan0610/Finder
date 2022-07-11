@@ -11,7 +11,7 @@
         android:label="FragmentRegisterName" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.tuantran.finder.fragment.ProfileFragment"
+        android:name="com.tuantran.finder.fragment.Home.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" >
         <action
@@ -23,21 +23,21 @@
     </fragment>
     <fragment
         android:id="@+id/chatFragment"
-        android:name="com.tuantran.finder.fragment.ChatFragment"
+        android:name="com.tuantran.finder.fragment.Home.ChatFragment"
         android:label="fragment_chat"
         tools:layout="@layout/fragment_chat" />
     <fragment
         android:id="@+id/favoriteFragment"
-        android:name="com.tuantran.finder.fragment.FavoriteFragment"
+        android:name="com.tuantran.finder.fragment.Home.FavoriteFragment"
         android:label="fragment_favorite"
         tools:layout="@layout/fragment_favorite" />
     <fragment
         android:id="@+id/finderFragment"
-        android:name="com.tuantran.finder.fragment.FinderFragment"
+        android:name="com.tuantran.finder.fragment.Home.FinderFragment"
         android:label="fragment_finder"
         tools:layout="@layout/fragment_finder" />
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.tuantran.finder.fragment.SettingsFragment"
+        android:name="com.tuantran.finder.fragment.Settings.SettingsFragment"
         android:label="SettingsFragment" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.tuantran.finder.fragment
+package com.tuantran.finder.fragment.Home
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
