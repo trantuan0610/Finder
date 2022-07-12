@@ -2,6 +2,7 @@ package com.tuantran.finder.fragment.Login
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -24,6 +25,23 @@ class Login_Email_Fragment : Fragment() {
     ): View {
         // Inflate the layout for this fragment
 
+        firebaseAuth = FirebaseAuth.getInstance()
+
+        if (firebaseAuth.currentUser != null) {
+
+            var user: FirebaseUser
+            user = firebaseAuth.currentUser!!
+            Log.d("LoginEmailPassword", user.email!!);
+
+            val intent = Intent(
+                this@Login_Email_Fragment.requireContext(),
+                MainActivity::class.java
+            )
+            startActivity(intent)
+        } else {
+            registerAndLoginListener()
+        }
+
         return inflater.inflate(R.layout.fragment_login_email, container, false)
 
 
@@ -31,41 +49,39 @@ class Login_Email_Fragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        firebaseAuth = FirebaseAuth.getInstance()
-        logIn()
+
+
+
     }
 
-    private fun logIn() {
+    private fun registerAndLoginListener() {
         mLogin.setOnClickListener {
             val email = edtEmail.text.toString()
             val pass = edtPass.text.toString()
 
-            var user: FirebaseUser
-            user = firebaseAuth.currentUser!!
+//            var user: FirebaseUser
+//            user = firebaseAuth.currentUser!!
 
-            if (email.isNotEmpty() && pass.isNotEmpty() && user.email == email) {
-                firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
-                    if (it.isSuccessful) {
-                        val intent = Intent(
-                            this@Login_Email_Fragment.requireContext(),
-                            MainActivity::class.java
-                        )
-                        startActivity(intent)
-                    } else {
-                        Toast.makeText(
-                            this.requireContext(),
-                            it.exception.toString(),
-                            Toast.LENGTH_SHORT
-                        ).show()
-                    }
-                }
-            } else {
+            if (email.isNotEmpty() && pass.isNotEmpty() ) {
                 firebaseAuth.createUserWithEmailAndPassword(email, pass)
                     .addOnCompleteListener {
                         if (it.isSuccessful) {
 
-                            val intent = Intent(this.requireContext(), MainActivity::class.java)
-                            startActivity(intent)
+                            firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
+                                if (it.isSuccessful) {
+                                    val intent = Intent(
+                                        this@Login_Email_Fragment.requireContext(),
+                                        MainActivity::class.java
+                                    )
+                                    startActivity(intent)
+                                } else {
+                                    Toast.makeText(
+                                        this.requireContext(),
+                                        it.exception.toString(),
+                                        Toast.LENGTH_SHORT
+                                    ).show()
+                                }
+                            }
                         } else {
                             Toast.makeText(
                                 this.requireContext(),
@@ -76,6 +92,41 @@ class Login_Email_Fragment : Fragment() {
                         }
                     }
             }
+
+
+//            if (email.isNotEmpty() && pass.isNotEmpty() ) {
+//                firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
+//                    if (it.isSuccessful) {
+//                        val intent = Intent(
+//                            this@Login_Email_Fragment.requireContext(),
+//                            MainActivity::class.java
+//                        )
+//                        startActivity(intent)
+//                    } else {
+//                        Toast.makeText(
+//                            this.requireContext(),
+//                            it.exception.toString(),
+//                            Toast.LENGTH_SHORT
+//                        ).show()
+//                    }
+//                }
+//            } else {
+//                firebaseAuth.createUserWithEmailAndPassword(email, pass)
+//                    .addOnCompleteListener {
+//                        if (it.isSuccessful) {
+//
+//                            val intent = Intent(this.requireContext(), MainActivity::class.java)
+//                            startActivity(intent)
+//                        } else {
+//                            Toast.makeText(
+//                                this.requireContext(),
+//                                it.exception.toString(),
+//                                Toast.LENGTH_SHORT
+//                            )
+//                                .show()
+//                        }
+//                    }
+//            }
         }
 
 
