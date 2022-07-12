@@ -65,59 +65,64 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/tv3"
+                    android:id="@+id/tvMycurrentLo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="140dp"
+                    android:layout_toRightOf="@+id/tv1"
                     android:text="My Curent Location "
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_toRightOf="@+id/tv1"
-                    android:layout_marginLeft="140dp"/>
+                    android:textStyle="bold" />
+
                 <TextView
-                    android:id="@+id/tv2"
+                    android:id="@+id/tvMycurrent"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
                     android:text="My Curent Location "
                     android:textColor="@color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_below="@+id/tv1"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="20dp"
-                    />
-                <Switch
-                    android:id="@+id/sw1"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_mycurrent"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:layout_toRightOf="@+id/tv2"
-                    android:layout_marginTop="20dp"
-                    android:layout_below="@+id/tv3"
-                    android:layout_marginLeft="100dp"
-                    />
+                    android:layout_below="@+id/tvMycurrentLo"
+                    android:layout_marginLeft="96dp"
+                    android:layout_marginTop="-1dp"
+                    android:layout_toRightOf="@+id/tvMycurrent"
+                    android:background="@null"
+                    android:button="@drawable/custom_switch"
+                    android:thumb="@null"
+                    app:track="@null" />
+
                 <TextView
                     android:id="@+id/tv4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="My Curent Location "
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/red"
-                    android:layout_below="@+id/tv2"
-                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/tvMycurrent"
                     android:layout_marginLeft="20dp"
-                    />
+                    android:layout_marginTop="20dp"
+                    android:text="Add New Location "
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
-                <Switch
-                    android:id="@+id/sw2"
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_newloacation"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:layout_toRightOf="@+id/tv2"
-                    android:layout_marginTop="20dp"
-                    android:layout_below="@+id/sw1"
-                    android:layout_marginLeft="100dp"
-                    />
+                    android:layout_below="@+id/switch_mycurrent"
+                    android:layout_marginLeft="96dp"
+                    android:layout_toRightOf="@+id/tvMycurrent"
+                    android:background="@null"
+                    android:button="@drawable/custom_switch"
+                    android:checked="true"
+                    android:thumb="@null"
+                    app:track="@null" />
 
             </RelativeLayout>
 
@@ -129,44 +134,57 @@
                 android:layout_margin="10dp"
                 >
 
-                <TextView
-                    android:id="@+id/tv6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Men"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="20dp"/>
-
-                <Switch
-                    android:id="@+id/sw3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:layout_toRightOf="@+id/tv6"
-                    android:layout_marginLeft="100dp"
-                    />
 
                 <TextView
-                    android:id="@+id/tv7"
+                    android:id="@+id/tvMan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Men"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
                     android:layout_marginLeft="20dp"
-                    android:layout_below="@id/tv6"/>
-                <Switch
-                    android:id="@+id/sw4"
+                    android:layout_marginTop="10dp"
+                    android:text="Men"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_man"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:layout_toRightOf="@+id/tv6"
-                    android:layout_marginLeft="100dp"
-                    android:layout_below="@id/sw3"
-                    />
+                    android:layout_marginLeft="96dp"
+                    android:layout_marginTop="-1dp"
+                    android:layout_toRightOf="@+id/tvMan"
+                    android:background="@null"
+                    android:button="@drawable/custom_switch"
+                    android:checked="true"
+                    android:thumb="@null"
+                    app:track="@null" />
+
+                <TextView
+                    android:id="@+id/tvWoman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvMan"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Woman"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_woman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/switch_man"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toRightOf="@+id/tvWoman"
+                    android:background="@null"
+                    android:button="@drawable/custom_switch"
+                    android:checked="true"
+                    android:thumb="@null"
+                    app:track="@null" />
 
             </RelativeLayout>
             <RelativeLayout
@@ -203,12 +221,18 @@
                 <SeekBar
                     android:id="@+id/sb1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_below="@+id/tvMax"
-                    android:background="@color/white"
-                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:max="100"
 
-                    />
+                    android:min="5"
+                    android:progress="20"
+                    android:progressDrawable="@drawable/custom_seekbar_progress"
+                    android:thumb="@drawable/seek_bar_thumb" />
 
             </RelativeLayout>
             <RelativeLayout
@@ -241,13 +265,17 @@
                     android:layout_toRightOf="@id/tvAge"
                     />
 
-                <SeekBar
-                    android:id="@+id/sb2"
+
+                <com.yahoo.mobile.client.android.util.rangeseekbar.RangeSeekBar xmlns:rsb="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/rangeSeekbar"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    rsb:absoluteMaxValue="14"
+                    rsb:absoluteMinValue="50"
                     android:layout_below="@+id/tvAge"
-                    android:background="@color/white"
-                    android:layout_marginBottom="15dp"
                     />
 
             </RelativeLayout>
@@ -281,20 +309,25 @@
                     android:id="@+id/tvShowMe"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
                     android:text="Show me on Binder"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
                     android:textColor="@color/black"
-                    android:layout_marginLeft="20dp"/>
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
-                <Switch
-                    android:id="@+id/swShowme"
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_Showme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="0dp"
                     android:layout_toRightOf="@+id/tvShowMe"
-                    android:layout_marginLeft="100dp"
-                    />
+                    android:background="@null"
+                    android:button="@drawable/custom_switch"
+                    android:checked="true"
+                    android:thumb="@null"
+                    app:track="@null" />
 
 
 
@@ -306,27 +339,29 @@
                 android:background="@color/white"
                 android:layout_margin="10dp"
                 >
-
 
 
                 <TextView
                     android:id="@+id/tvShowAge"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Don't show my Age"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
                     android:layout_marginLeft="20dp"
-                    />
-                <Switch
-                    android:id="@+id/swSHowAge"
+                    android:text="Don't show my Age"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_ShowAge"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
+                    android:layout_marginLeft="70dp"
                     android:layout_toRightOf="@+id/tvShowAge"
-                    android:layout_marginLeft="100dp"
-                    />
+                    android:background="@null"
+                    android:button="@drawable/custom_switch"
+                    android:checked="true"
+                    android:thumb="@null"
+                    app:track="@null" />
 
             </RelativeLayout>
 
@@ -339,25 +374,28 @@
                 >
 
 
-
                 <TextView
                     android:id="@+id/tvDis_In"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Make my Distance Invisible"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
                     android:layout_marginLeft="20dp"
-                    />
-                <Switch
-                    android:id="@+id/swDis_in"
+                    android:text="Make my Distance Invisible"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_dis"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:layout_marginLeft="50dp"
-                    android:layout_toRightOf="@id/tvDis_In"
-                        />
+                    android:layout_marginLeft="70dp"
+                    android:layout_toRightOf="@+id/tvDis_In"
+                    android:background="@null"
+                    android:button="@drawable/custom_switch"
+                    android:checked="true"
+                    android:thumb="@null"
+                    app:track="@null" />
 
             </RelativeLayout>
             <RelativeLayout
@@ -381,14 +419,15 @@
                     android:layout_marginLeft="20dp"
 
                     />
+
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btnKM"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/tvShowDis"
+                    android:background="@color/white"
                     android:text="Km."
                     android:textColor="@color/black"
-                    android:background="@color/white"
-                    android:layout_below="@id/tvShowDis"
 
                     />
                 <androidx.appcompat.widget.AppCompatButton
@@ -474,7 +513,7 @@
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="30dp"
                 android:background="@color/white"
                 android:layout_margin="10dp"
                 >
@@ -482,15 +521,15 @@
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btnBlocked"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:background="@color/white"
-                    android:text="Blocked User "
+                    android:text="Blocked User"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="30dp"
                 android:background="@color/white"
                 android:layout_margin="10dp"
                 >
@@ -498,7 +537,7 @@
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btnLogout"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:background="@color/white"
                     android:text="Logout "
                     android:textColor="@color/black"

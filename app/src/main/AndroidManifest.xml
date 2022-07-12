@@ -16,9 +16,7 @@
         <activity
             android:name=".ChoseLogin_Phone_Email_Activity"
             android:exported="false" />
-        <activity
-            android:name=".LoginEmailPhoneActivity"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="false" >

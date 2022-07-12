@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/drawable/botron_btn.xml" value="0.246" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/drawable/botron_img.xml" value="0.2535" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/drawable/custom_btn_them.xml" value="0.246" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/drawable/ic_settings.xml" value="0.2535" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/activity_settings.xml" value="0.365625" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/fragment_blank.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/fragment_blank2.xml" value="0.2635416666666667" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/fragment_blank3.xml" value="0.2635416666666667" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/fragment_chat.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/fragment_favorite.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/fragment_settings.xml" value="0.17352723687453783" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/home_layout.xml" value="0.22" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/input_otp.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/register.xml" value="0.22" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/register_birthday.xml" value="0.2625" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/register_image.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/register_name.xml" value="0.2625" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/register_passions.xml" value="0.2635416666666667" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/register_phone.xml" value="0.365625" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/register_sex.xml" value="0.2635416666666667" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/register_show.xml" value="0.19765625" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/layout/register_showme.xml" value="0.2625" />
+        <entry key="..\:/DiDongCB/Finder/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable-hdpi/custom_seekbar_progress.xml" value="0.245" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable-hdpi/custom_switch.xml" value="0.245" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable/botron_btn.xml" value="0.312" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable/circle_btn.xml" value="0.312" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable/custom_img.xml" value="0.312" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable/ic_add_circle_black_24dp.xml" value="0.245" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable/ic_check_select.xml" value="0.245" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable/ic_check_unselect.xml" value="0.245" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable/ic_lens_black_24dp.xml" value="0.245" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable/ic_switch_select.xml" value="0.245" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable/round_button_with_border.xml" value="0.245" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable/rounded_corner_layout.xml" value="0.245" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/drawable/seek_bar_thumb.xml" value="0.245" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/active_user_item.xml" value="0.3614583333333333" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/activity_chose_login.xml" value="0.271875" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/activity_chose_login_phone_email.xml" value="0.2" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/activity_login_email.xml" value="0.35260416666666666" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/activity_login_email_phone.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/fragment_chat.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/fragment_chat_detail.xml" value="0.28854166666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/fragment_edit_profile.xml" value="0.2814674256799494" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/fragment_favorite.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/fragment_finder.xml" value="0.22" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/fragment_login_email.xml" value="0.35260416666666666" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/fragment_login_phone.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/fragment_register_name.xml" value="0.190625" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/fragment_settings.xml" value="0.22" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/grid_item.xml" value="0.25" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/home_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/input_otp.xml" value="0.28958333333333336" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/item.xml" value="0.305859375" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/main_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/matched_user_item.xml" value="0.3625" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/register_birthday.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/register_name.xml" value="0.190625" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/register_passions.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/register_phone.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/register_photo.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/register_sex.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/register_showme.xml" value="0.36666666666666664" />
+        <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
