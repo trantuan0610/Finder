@@ -73,11 +73,10 @@ dependencies {
     //picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
     //rangeseekbar
-    implementation 'com.yahoo.mobile.client.android.util.rangeseekbar:rangeseekbar-library:0.1.0'
+    //implementation 'com.yahoo.mobile.client.android.util.rangeseekbar:rangeseekbar-library:0.1.0'
 
-
-
-
+    //implementation "com.yuyakaido.android:card-stack-view:2.3.4"
+    implementation project(':cardstackview')
 
 
 }

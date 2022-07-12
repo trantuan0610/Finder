@@ -75,10 +75,22 @@
         <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/register_sex.xml" value="0.36666666666666664" />
         <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/layout/register_showme.xml" value="0.36666666666666664" />
         <entry key="..\:/DiDongCB/KOTLIN/Finder/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/drawable-hdpi/custom_seekbar_progress.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable-hdpi/custom_switch.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_add_circle_black_24dp.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_camera.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_check_select.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/ic_check_unselect.xml" value="0.134" />
+        <entry key="app/src/main/res/drawable/seek_bar_thumb.xml" value="0.134" />
+        <entry key="app/src/main/res/layout/active_user_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_finder.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1234375" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.1234375" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
